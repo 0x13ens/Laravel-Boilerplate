@@ -1,0 +1,25 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Font Awesome 
+@import "node_modules/font-awesome/scss/font-awesome";
+
+// Bulma
+@import 'node_modules/bulma/bulma';
+
+// Bulma Vue Modules
+@import "node_modules/buefy/src/scss/buefy";
+
+// Custom Sass
+@import "overrides";
+@import "helpers";
+@import "styles";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
